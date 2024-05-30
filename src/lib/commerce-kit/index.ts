@@ -15,7 +15,7 @@ import {
 import { cookies } from "next/headers";
 
 export function getToken() {
-  return cookies().get("access_token");
+  return cookies().get("cnx_access_token");
 }
 
 export function createClient() {

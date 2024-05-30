@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/carousel";
 import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
+import HeroSection from "@/components/builder/hero-section";
 
 export default function Home() {
   return (
